@@ -12,6 +12,12 @@ function fakeBinary(size) {
   // fakeBinary(10) devuelve "1010101010"
   // fakeBinary(3) devuelve "101"
   // Tu código aca:
+  let aux = '';
+  for (let i = 1; i <= size; i++) {
+    if (i % 2 == 0) aux += '0';
+    else aux += '1';
+  }
+  return aux;
 
 }
 

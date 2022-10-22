@@ -11,7 +11,8 @@ function buscandoAWally(array) {
   // buscandoAWally(['Dobby', 'Harry', 'Dementor', 'Wally', 'Sirius']) debe retornar 'Encontre a Wally en la posicion 3'
   // ya que 'Wally' se encuentra en la posicion 3 del arreglo.
   // Tu código aca:
-
+  let ballena = array.indexOf('Wally');
+  return (ballena>=0)? `Encontre a Wally en la posicion ${ballena}`: `No encontre a Wally`;
 }
 
 // No modifiques nada debajo de esta linea //
